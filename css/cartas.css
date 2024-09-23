@@ -1,0 +1,75 @@
+.result-1, .result-2 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+
+.result-1 div, .result-2 div {
+    position: absolute;
+}
+
+.result-1 #diez_de_diamantes {
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.result-1 #sota_de_diamantes {
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+
+.result-1 #reina_de_diamantes {
+    left: 40px;
+    top: 40px;
+    z-index: 3;
+}
+
+.result-1 #rey_de_diamantes {
+    left: 60px;
+    top: 60px;
+    z-index: 4;
+}
+
+.result-1 #as_de_diamantes {
+    left: 80px;
+    top: 80px;
+    z-index: 5;
+}
+
+.result-2 #diez_de_diamantes {
+    left: 80px;
+    top: 80px;
+    z-index: 5;
+}
+
+.result-2 #diez_de_diamantes {
+    left: 0;
+    top: 80px;
+    z-index: 5;
+}
+
+.result-2 #sota_de_diamantes {
+    left: 20px;
+    top: 60px;
+    z-index: 4;
+}
+
+.result-2 #reina_de_diamantes {
+    left: 40px;
+    top: 40px;
+    z-index: 3;
+}
+
+.result-2 #rey_de_diamantes {
+    left: 60px;
+    top: 20px;
+    z-index: 2;
+}
+
+.result-2 #as_de_diamantes {
+    left: 80px;
+    top: 0;
+    z-index: 1;
+}
